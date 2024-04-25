@@ -11,6 +11,7 @@ d=d1(4)
 #print(next(d))
 
 for i in d:
+    print('hello world')
     print(i)
 
 def d2():
