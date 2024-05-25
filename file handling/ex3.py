@@ -1,0 +1,6 @@
+f=open('python.txt','r')
+#x=f.readline()
+#print(x)
+y=f.readlines()
+print(y)
+f.close()
