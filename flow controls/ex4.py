@@ -1,9 +1,9 @@
 #while loop:
 #it is used when the user doesnot knows the exact output:
-i=0
+i=1
 while i<10:
     print(i)
-    i+=1
+    i*= 2
 #the loop will be repeated upto the given condition is true.
 #whenever the condition becomes false the loop will be terminated.
 
@@ -20,7 +20,7 @@ while a<20:
 b=0
 while b<10:
     b+=1
-    if b==6:
+    if b==6 or b ==8:
         continue
     print(b)
 

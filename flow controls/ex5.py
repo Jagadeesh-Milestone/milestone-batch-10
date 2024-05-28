@@ -8,6 +8,7 @@ for a in l:
 name='jagadeesh'
 for i in name:
     print(i)
+
 for i in range(100):
     print(i,end=",")
 #break:
@@ -21,4 +22,6 @@ b=[1,2,3,4,5,6,7,8]
 for i in b:
     if i==4:
         continue
+    elif i ==7:
+        break
     print(i)
